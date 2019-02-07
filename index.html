@@ -18,7 +18,7 @@ repositório no GitHub ou Bitbucket e commitem o código-fonte do site.
         <link type="text/css" href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header id="home">
             <div class="container">
                 <div class="logo" >
                     <img src="imagens/logofatec.png" border="0">
@@ -26,19 +26,64 @@ repositório no GitHub ou Bitbucket e commitem o código-fonte do site.
 
                 <div class="menu">
                     <nav>
-                        <div class="menu_mobile">
-                            <div class="mm_line"></div>
-                            <div class="mm_line"></div>
-                            <div class="mm_line"></div>
-                        </div>
                         <ul>
-                            <li class="active"><a href="">Home</a></li>
-                            <li><a href="">Carlos</a></li>
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#banner_carlos">Carlos</a></li>
                             <li><a href="">Matheus</a></li>
                         </ul>
                     </nav>
                 </div>                
             </div>            
         </header>
+
+        <section id="banner_carlos"> 
+            <div class="perfil">
+                <div class="nome">
+                    Carlos Antônio
+                </div>
+
+                <div class="menu_perfil">
+                    <ul>                            
+                        <li><a href="">Biografia</a></li>
+                        <li><a href="">Fotos</a></li>
+                    </ul>                        
+                </div>
+
+                <div class="apresentacao">
+                    Olá, Eu sou
+                </div>
+
+                <div class="nomegrande">
+                    <strong>Carlos<br>
+                        Júnior</strong>
+                </div>
+            </div>
+
+            <div class="perfil">
+                <img src="imagens/carlos.jpg" border="0">
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container_sobre">
+                <div class="sobre_mim">
+                    <strong>Sobre mim</strong>
+                </div>
+
+                <div class="sobre_resumo">
+                    Tenho 34 anos, sou casado a 11 anos e tenho 4 filhos. Samuel 9 anos, Gabriel 5 anos, Isabela 3 anos e Manuela 1 ano.
+                    Sou desenvolvedor Delphi com 10 anos de experiência. Cursando 2º ano de G.T.I na Fatec. Atualmente, 
+                    buscando desenvolver habilidades no mundo web.                   
+                </div>
+            </div>            
+        </section>
+
+
+        <footer>
+            <div class="footer_copy">
+                Fatec - Linguágem de programação - Layout criado por Carlos Antônio e Matheus Muniz para atividade 1
+            </div>            
+        </footer>
+
     </body>
 </html>
