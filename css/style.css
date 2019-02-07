@@ -87,6 +87,10 @@ nav a:hover {
     background-color: #015761;
 }
 
+#matheus {    
+    background-color: #015761;
+}
+
 .perfil {    
     flex: 1;
 }
@@ -113,6 +117,12 @@ nav a:hover {
 }
 
 .perfil_carlos .foto_perfil img {
+    display: flex;
+    justify-content: center;
+    height: 670px;
+}
+
+.perfil_matheus .foto_perfil img {
     display: flex;
     justify-content: center;
     height: 670px;
