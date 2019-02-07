@@ -64,7 +64,6 @@ nav a {
     color: #727272;    
 }
 
-nav .active a,
 nav a:hover {
     background-color: #465c67;
     color: #FFF;       
@@ -79,10 +78,12 @@ nav a:hover {
     font-size: 15px;
 }
 
-#banner_carlos{
+#banner{
     display: flex;
-    justify-content: center;
     height: 670px;
+}
+
+#carlos {    
     background-color: #015761;
 }
 
@@ -111,9 +112,13 @@ nav a:hover {
     margin-left: 104px
 }
 
-.perfil img {
-    width: 100%;
-    height: 100%;        
+.perfil_carlos .foto_perfil {
+    background-image: url('../imagens/carlos.jpg');
+    background-size: cover;    
+}
+
+.foto_perfil {
+    flex: 1;
 }
 
 #sobre {
